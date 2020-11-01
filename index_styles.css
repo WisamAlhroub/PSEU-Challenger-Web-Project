@@ -1,0 +1,254 @@
+body {
+    margin: 0%;
+}
+
+.img-div {
+    position: absolute;
+}
+
+.img-div .first-pic {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.img-div .Exams-bro {
+    position: absolute;
+    width: 35%;
+    left: 65%;
+    top: 33.8%;
+}
+
+.title-text {
+    max-width: 80%;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    top: 30%;
+    right: -10%;
+}
+
+.title-text h1 {
+    font-family: "Sitka Display";
+    font-weight: 300;
+    font-size: 500%;
+    color: whitesmoke;
+    top: 20%;
+    margin-bottom: 10px;
+}
+
+.title-text h2 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 300%;
+    margin-top: 10px;
+    color: #650061;
+}
+
+button {
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+.col-buttons {
+    max-width: 80%;
+    position: relative;
+    right: -10%;
+    top: 32%;
+}
+
+.firstTwo-btns {
+    width: 25%;
+    height: 9%;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: #650061;
+    border-radius: 40px;
+    font-size: 200%;
+}
+
+.firstTwo-btns:hover {
+    transition-duration: 0.4s;
+    background-color: #650061;
+    color: white;
+}
+
+.footer {
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+.img-div .footer.pink {
+    position: absolute;
+    font-family: "Open Sans";
+    color: #650061;
+    font-weight: 400;
+    top: 93%;
+    left: 10%;
+}
+
+.types {
+    position: relative;
+    top: 80%;
+    max-width: 70%;
+    left: 15%;
+}
+
+.tags {
+    font-family: "Open Sans";
+    font-size: 110%;
+    display: inline;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 0.7% 1.3% 0.7% 1.3%;
+    margin-bottom: 1%;
+    margin-right: 0.3%;
+}
+
+.tags:hover {
+    background-image: linear-gradient(to right, #E958A2, #650061);
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.huge-button {
+    cursor: pointer;
+    position: relative;
+    left: 4%;
+    margin-top: 3%;
+    font-family: "Open Sans";
+    color: whitesmoke;
+    width: 90%;
+    height: 25%;
+    border: none;
+    background-color: #9A24A9;
+    font-size: 400%;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.huge-button:hover {
+    background-color: #9A24B9;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.text-below {
+    text-align: center;
+    font-size: larger;
+}
+
+.text-below.p2 {
+    color: #9A24A9;
+}
+
+.text-below.p2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.first-hr {
+    position: relative;
+    top: 60%;
+    margin-top: 20%;
+}
+
+.second-section {
+    position: relative;
+    top: 65%;
+}
+
+.container {
+    position: absolute;
+    text-align: right;
+    right: 2%;
+    top: 0.1%
+}
+
+.second-section img {
+    width: 80%;
+}
+
+.second-h1 {
+    position: relative;
+    font-family: "Sitka Display";
+    max-width: 30%;
+    font-weight: 600;
+    font-size: 500%;
+    color: #707070;
+    margin-bottom: 10px;
+    right: -10%;
+}
+
+.subtitle {
+    position: relative;
+    right: -10%;
+    max-width: 30%;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 200%;
+    margin-top: 10px;
+    color: #2E353A;
+}
+
+.start-typing {
+    cursor: pointer;
+    position: relative;
+    right: -10%;
+    margin-top: 3%;
+    font-family: "Open Sans";
+    color: whitesmoke;
+    width: 45%;
+    height: 15%;
+    border: none;
+    background-color: #9A24A9;
+    font-size: 280%;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    z-index: 1;
+}
+
+.start-typing:hover {
+    background-color: #9A24B9;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.thicc {
+    position: relative;
+    top: 79%;
+    border: none;
+    height: 25px;
+    background-color: #2E353A;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    top: 85%;
+    color: #2E353A;
+    margin-bottom: 5%;
+}
+
+.footer-title {
+    font-family: "Sitka Display";
+    font-weight: 300;
+}
+
+.footer.inline {
+    display: inline;
+}
+
+.footer.dot {
+    display: inline;
+}
+
+.footer.inline:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
