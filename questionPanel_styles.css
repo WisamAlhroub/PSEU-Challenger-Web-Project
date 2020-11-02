@@ -144,3 +144,8 @@ label {
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}

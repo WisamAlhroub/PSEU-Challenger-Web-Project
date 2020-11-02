@@ -252,3 +252,7 @@ footer {
     cursor: pointer;
     text-decoration: underline;
 }
+
+a {
+    text-decoration: none;
+}

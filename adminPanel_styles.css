@@ -93,3 +93,8 @@ h3 {
     color: white;
     background-image: linear-gradient(to right, #E958A2, #650061);
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
