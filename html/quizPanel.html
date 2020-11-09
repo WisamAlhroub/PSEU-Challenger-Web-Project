@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="quizPanel_styles.css">
+    <link rel="stylesheet" href="/css/quizPanel_styles.css">
     <title>Add a Question</title>
 </head>
 <div class="bar">
@@ -12,33 +12,31 @@
 </div>
 <div class="row">
     <div class="side-menu">
-        <a href="/adminPanel.html"><h2 class="category" >Dashboard</h2></a>
-        <a href="/quizzes.html"><h2 class="category">Quizzes</h2></a>
-        <a href="/questions.html"><h2 class="category">Question Base</h2></a>
-        <a href="/topics.html"><h2 class="category">Topics</h2></a>
+        <a href="/html/adminPanel.html"><h2 class="category" >Dashboard</h2></a>
+        <a href="/html/quizzes.html"><h2 class="category">Quizzes</h2></a>
+        <a href="/html/questions.html"><h2 class="category">Question Base</h2></a>
+        <a href="/html/topics.html"><h2 class="category">Topics</h2></a>
         <a href=""></a><h2 class="category">Settings</h2></a>
     </div>
     <div class="content-body">
         <h2 class="body-sub">Add Quiz</h2>
         <div class="input-field">
             <label for="inputs-field question">Question</label>
-            <input class="inputs-field question" type="text">
+            <input class="inputs-field question"  id="inputs-field question" type="text">
             <br>
             <br>
             <label for="topics-select">Topic</label>
-            <select class="topics-select">
+            <select class="topics-select" id="topics-select">
                 <option disabled selected value></option>
-                <option></option>
-                <option></option>
-                <option></option>
             </select>
             <br>
             <br>
             <label for="inputs-field">Number of Questions</label>
-            <input type="number" class="inputs-field" min="1">
+            <input type="number" id="number" class="inputs-field" min="1">
         </div>
-        <button class="category-btn">Save</button>
+        <button class="category-btn" onclick="save()">Save</button>
     </div>
+    <script src="quiz_scripts.js"></script>
 </div>
 
 <body>

@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/questionPanel_styles.css">
+    <title>Add a Question</title>
+</head>
+<div class="bar">
+    <h1 class="title">challenger</h1>
+    <h2 class="admin-subtitle">ADMIN</h2>
+</div>
+<div class="row">
+    <div class="side-menu">
+        <a href="/html/adminPanel.html">
+            <h2 class="category">Dashboard</h2>
+        </a>
+        <a href="/html/quizzes.html">
+            <h2 class="category">Quizzes</h2>
+        </a>
+        <a href="/html/questions.html">
+            <h2 class="category">Question Base</h2>
+        </a>
+        <a href="/html/topics.html">
+            <h2 class="category">Topics</h2>
+        </a>
+        <a href=""></a>
+        <h2 class="category">Settings</h2></a>
+    </div>
+    <div class="content-body">
+        <h2 class="body-sub">Add a Question</h2>
+        <div class="input-field">
+            <label for="inputs-field question">Question</label>
+            <input class="inputs-field question" id="inputs-field question" type="text">
+            <br>
+            <br>
+            <label for="topics-select">Topic</label>
+            <select class="topics-select" id="topics-select">
+                <option disabled selected value>Select</option>
+            </select>
+            <br>
+            <br>
+            <label for="inputs-field option">Options</label>
+            <div class="option">
+                <div id="option1">
+                    <input class="inputs-field option" type="text" id="inputs-field option1">
+                    <button class="img-btn" onclick="addField()"><img src="/img/plus-vec.png" alt=""></button>
+                    <button class="img-btn"><img src="/img/mark-vec.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <button class="category-btn" onclick="save()">Save</button>
+    </div>
+    <script src="/javascript/question_scripts.js"></script>
+</div>
+
+<body>
+
+</body>
+
+</html>
