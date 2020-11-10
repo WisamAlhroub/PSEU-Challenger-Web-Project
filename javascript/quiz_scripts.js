@@ -12,5 +12,9 @@ function save() {
         "noOfQuestions": noOfQuestions
     }
 
+    obj = JSON.stringify(obj);
+
     quizzes.push(obj);
+
+    localStorage.setItem(obj);
 }

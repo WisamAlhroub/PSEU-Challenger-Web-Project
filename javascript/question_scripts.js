@@ -1,5 +1,6 @@
 let questions = [];
 let ctr = 1;
+let questionsLocal = localStorage;
 
 function addField() {
 
@@ -35,5 +36,20 @@ function save() {
         "options": options
     };
 
+    obj = JSON.stringify(obj);
+
     questions.push(obj);
+    
+    questionsLocal.setItem(questionsLocal.length, obj);
+
+}
+
+function loadData() {
+
+    if(!questions.length) {
+        for (let i = 0; i < questionsLocal.length; i++) {
+            questions.push(localStorage.getItem(i));
+        }
+    }
+
 }

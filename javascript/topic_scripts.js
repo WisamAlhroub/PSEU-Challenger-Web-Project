@@ -8,6 +8,10 @@ function save() {
         "title": title
     };
 
+    obj = JSON.stringify(obj);
+
     topics.push(obj);
+
+    localStorage.setItem(obj);
 }
 
