@@ -7,16 +7,25 @@
     <title>Add a Question</title>
 </head>
 <div class="bar">
-    <h1 class="title">challenger</h1>
+    <a class="a-title" href="/html/index.html"><h1 class="title">challenger</h1></a>
     <h2 class="admin-subtitle">ADMIN</h2>
 </div>
 <div class="row">
     <div class="side-menu">
-        <a href="/html/adminPanel.html"><h2 class="category" >Dashboard</h2></a>
-        <a href="/html/quizzes.html"><h2 class="category">Quizzes</h2></a>
-        <a href="/html/questions.html"><h2 class="category">Question Base</h2></a>
-        <a href="/html/topics.html"><h2 class="category">Topics</h2></a>
-        <a href=""></a><h2 class="category">Settings</h2></a>
+        <a href="/html/adminPanel.html">
+            <h2 class="category">Dashboard</h2>
+        </a>
+        <a href="/html/tables/quizzes.html">
+            <h2 class="category">Quizzes</h2>
+        </a>
+        <a href="/html/tables/questions.html">
+            <h2 class="category">Question Base</h2>
+        </a>
+        <a href="/html/tables/topics.html">
+            <h2 class="category">Topics</h2>
+        </a>
+        <a href=""></a>
+        <h2 class="category">Settings</h2></a>
     </div>
     <div class="content-body">
         <h2 class="body-sub">Add Quiz</h2>
@@ -27,16 +36,16 @@
             <br>
             <label for="topics-select">Topic</label>
             <select class="topics-select" id="topics-select">
-                <option disabled selected value></option>
+                <option id="d-option" disabled selected value></option>
             </select>
             <br>
             <br>
             <label for="inputs-field">Number of Questions</label>
             <input type="number" id="number" class="inputs-field" min="1">
         </div>
-        <button class="category-btn" onclick="save()">Save</button>
+        <button class="category-btn" onclick="saveQuiz()">Save</button>
     </div>
-    <script src="quiz_scripts.js"></script>
+    <script src="/javascript/adminPanel-scripts.js"></script>
 </div>
 
 <body>
